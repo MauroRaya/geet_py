@@ -6,10 +6,6 @@ def add(path: str):
     geet_dir     = os.path.join(dir_path, '.geet')
     tracked_file = os.path.join(geet_dir, 'tracked.txt') 
 
-    print(dir_path)
-    print(geet_dir)
-    print(tracked_file)
-
     if not os.path.exists(geet_dir):
         os.mkdir(geet_dir)
 
