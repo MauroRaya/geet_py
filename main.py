@@ -1,11 +1,13 @@
 import sys
 from commands.init   import init
 from commands.add    import add
+from commands.reset  import reset
 from commands.status import status
 
 command_map = {
     "init":   init,
     "add":    add,
+    "reset":  reset,
     "status": status
 }
 

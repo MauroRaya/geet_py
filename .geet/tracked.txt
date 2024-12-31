@@ -1,6 +1,0 @@
-.geet
-.git
-commands
-main.py
-my_colors.py
-__pycache__
